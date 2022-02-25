@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Variables*/
+.color-1{background-color: #ef8354;}
+.color-2{background-color: #0e7c7b;}
+.color-3{background-color: #9c538b;}
+
+body{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: #f2f2f2;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+/* Typography */
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: black 2px 2px;
+}
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: black 1px 1px;
+}
+p{
+    font-size: 16px; 
+    margin-bottom: 10px;
+}
+a{
+    color: #ef8354;
+}
+a:hover{
+    color: #9c528b;
+}
+/* Header*/
+header{
+    background-image: url(https://raw.githubusercontent.com/yoyesu/violets-vinyls/bf93badd836d948dbc1b0aceb2e4d30d12b32c90/img/records.png) ;
+}
+/* Images*/
+img{
+    max-width: 400px;
+    margin: 10px 0;
+    box-shadow: #f2f2f2 0.2px 0.2px 1px 1px;
+}
+/* Sections*/
+section{
+    padding-bottom: 20px;
+}
