@@ -1,0 +1,54 @@
+/* Fill in all the CSS rules. All the selectors you need are listed */
+
+/* CSS reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body  */
+
+body {
+    font-size: 16px;
+    background-color: 274471;
+    font-family: 'Lato', sans-serif;
+    background-color: #264470;
+}
+
+.container{
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(243, 243, 243);
+    border-radius: 6px;
+    margin: 30px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contactForm{
+    padding: 25px;
+}
+h1{
+    padding-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border-radius: 4px;  
+    border: none; 
+}
+
+.submit-button{
+    background-color: #1ac0fc;
+    padding: 14px 20px;
+    cursor: pointer;
+    color: white;
+}
+.submit-button:hover{
+    background-color: #20da8cb9;
+    transition: 0.5s;
+    text-shadow: black 1px 1px;
+}
