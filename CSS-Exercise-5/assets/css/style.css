@@ -1,0 +1,87 @@
+/* CSS reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: rgb(226, 236, 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+/* typography */
+p{
+  margin-top: 15px;
+}
+h1{
+  font-size: 60px;
+  margin: 0;
+  padding-bottom: 6px;
+}
+.title p{
+  font-size: 20px;
+  font-weight: 600;
+}
+main{
+  max-width: 900px;
+  margin: auto;
+  padding: 20px 0 50px 0;
+}
+/* hero section */
+.hero{
+  position: relative;
+}
+#feature{
+  margin-bottom: -10px;
+}
+#feature img{
+width: 900px;
+height: auto;
+}
+.title{
+background-color: rgba(199, 199, 199, 0.65);
+position: absolute;
+bottom: 50px;
+left: 50px;
+padding: 20px;
+}
+/* article  */
+article{
+  padding: 10px 110px 0 110px;
+  background-color: white;
+}
+/* article image */
+#article-figure{
+  float: right;
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+#article-figure img{
+  width: 300px;
+  height: auto;
+  padding-top: 20px;
+}
+/* article tags */
+.tags{
+  padding: 0;
+  padding: 35px 0 50px 0;
+}
+.tags span{
+  font-size: 12px;
+  background-color: #4e8098;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin: 0 5px;
+}
+/* footer */
+footer{
+  padding: 10px 0 20px 0;
+  border-top: solid 1px gray;
+  text-align: center;
+  background-color: white;
+
+}
+  
